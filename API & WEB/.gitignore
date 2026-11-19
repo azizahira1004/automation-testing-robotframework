@@ -1,0 +1,18 @@
+# Virtual Environment
+venv/
+
+# Robot Framework results
+__pycache__/
+results/
+Results_*/
+output.xml
+report.html
+log.html
+
+# Temporary files
+chrome_profile/
+
+# Local secrets
+.env
+.env.*
+!.env.example

@@ -1,0 +1,2 @@
+*** Settings ***
+Library   AppiumHelper.py

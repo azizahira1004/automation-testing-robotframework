@@ -1,0 +1,57 @@
+[35m[Appium][39m Welcome to Appium v2.5.0
+[35m[Appium][39m The autodetected Appium home path: /Users/azizahira/.appium
+[38;5;0m[HTTP][0m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+[35m[Appium][39m Could not configure Appium server. It's possible that a driver or plugin tried to update the server and failed. Original error: listen EADDRINUSE: address already in use 0.0.0.0:4723
+[35m[Appium][39m Error: listen EADDRINUSE: address already in use 0.0.0.0:4723
+[35m[Appium][39m     at Server.setupListenHandle [as _listen2] (node:net:1893:16)
+[35m[Appium][39m     at listenI[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/status
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[33m404[39m [90m39 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m<-- GET /favicon.ico [39m[32m200[39m [90m3 ms - 1150[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/status
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[33m404[39m [90m9 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/status
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[33m404[39m [90m3 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/sessions[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/sessions
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/sessions [39m[33m404[39m [90m6 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/sessions[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/sessions
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/sessions [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/sessions[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/sessions
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/sessions [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/sessions[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/sessions
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/sessions [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/sessions[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/sessions
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/sessions [39m[33m404[39m [90m2 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/sessions[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/sessions
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/sessions [39m[33m404[39m [90m2 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[35m[Appium][39m Received SIGTERM - shutting down
+[38;5;16m[AppiumDriver@a097][0m There are no active sessions for cleanup
+[38;5;0m[HTTP][0m Waiting until the server is closed
+[38;5;0m[HTTP][0m Received server close event

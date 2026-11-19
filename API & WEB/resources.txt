@@ -1,0 +1,36 @@
+*** Settings ***   
+Library          SeleniumLibrary    10    run_on_failure=None
+Library          Collections
+Library          OperatingSystem
+Library          String
+Library          FakerLibrary
+# Library          XvfbRobot
+Library          DateTime
+Library          DebugLibrary
+Library          RequestsLibrary
+Library          DatabaseLibrary
+Library          REST
+Library          Process
+Library          Dialogs
+
+Resource        TestSetup.robot
+Resource        TestTeardown.robot
+Resource        TestData.robot
+Resource        ${EXECDIR}/Keywords/Pages/login.robot
+Resource        ${EXECDIR}/Keywords/Pages/inventory_page.robot
+Resource        ${EXECDIR}/Keywords/Pages/checkout_page.robot
+Resource        ${EXECDIR}/Keywords/Pages/cart_page.robot
+Resource        ${EXECDIR}/Keywords/Pages/checkout_complete_page.robot
+Resource        ${EXECDIR}/Keywords/Pages/footer_page.robot
+Resource        ${EXECDIR}/Keywords/Pages/burger_menu_page.robot
+Resource        ${EXECDIR}/Keywords/Pages/filter_page.robot
+Resource        ${EXECDIR}/Keywords/Pages/product_detail_page.robot
+Resource        ${EXECDIR}/Keywords/Logic/login_logic.robot
+Resource        ${EXECDIR}/Keywords/Logic/users_service.robot
+Resource        ${EXECDIR}/Keywords/Logic/inventory_logic.robot
+Resource        ${EXECDIR}/Keywords/Logic/cart_logic.robot
+Resource        ${EXECDIR}/Keywords/Logic/checkout_logic.robot
+Resource        ${EXECDIR}/Keywords/Logic/filter_logic.robot
+Resource        ${EXECDIR}/Keywords/Logic/burger_menu_logic.robot
+Resource        ${EXECDIR}/Keywords/Logic/footer_logic.robot
+
