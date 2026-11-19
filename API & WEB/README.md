@@ -1,5 +1,3 @@
-Berikut adalah format `README.md` untuk project automation testing **API & Web** menggunakan **Robot Framework** yang sudah dilengkapi spesifikasi perangkat kamu serta catatan konfigurasi `${API_KEY}`:
-
 ```markdown
 # API & Web Automation Testing (Robot Framework)
 
