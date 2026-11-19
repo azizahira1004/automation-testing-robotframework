@@ -1,9 +1,12 @@
 *** Keywords ***
 Initialize ReqRes Session
-    ${api_key}=    Get Environment Variable    REQRES_API_KEY
-    Should Not Be Empty    ${api_key}    msg=Set the REQRES_API_KEY environment variable before running API tests.
-    &{headers}=    Create Dictionary    x-api-key=${api_key}
-    Create Session    reqres    ${BASE_URL}    headers=${headers}    verify=True
+    ${api_key}=    Get Environment Variable    REQRES_API_KEY    ${EMPTY}
+    IF    '${api_key}' != ''
+        &{headers}=    Create Dictionary    x-api-key=${api_key}
+        Create Session    reqres    ${BASE_URL}    headers=${headers}    verify=True
+    ELSE
+        Create Session    reqres    ${BASE_URL}    verify=True
+    END
 
 Get Users List
     ${response}=    GET On Session    reqres    /users    expected_status=200

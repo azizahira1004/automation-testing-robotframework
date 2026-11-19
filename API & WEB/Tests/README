@@ -78,11 +78,24 @@ ${API_KEY}    your_actual_api_key_here
 
 ### 1. Run API Automation Tests
 
-Ensure `${API_KEY}` is provided via CLI or your local config file before running:
+Run the API suite from the project root:
 
 ```powershell
-robot -v API_KEY:your_actual_api_key_here -d results tests/api/
+cd "D:\Automation Testing\API & WEB"
+robot --outputdir results "Tests\01_api_reqres.robot"
+```
 
+This project can run in ReqRes demo mode without `REQRES_API_KEY`. If you have an API key, set it in PowerShell before running:
+
+```powershell
+$env:REQRES_API_KEY = "your_reqres_api_key"
+robot --outputdir results "Tests\01_api_reqres.robot"
+```
+
+To run one API test case only:
+
+```powershell
+robot --outputdir results --test "TC01 - Get List Users" "Tests\01_api_reqres.robot"
 ```
 
 ### 2. Run Web Automation Tests
